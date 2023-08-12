@@ -11,7 +11,7 @@ println("\nThese squares are just perfect:")
 squares = [i^2 for i in 0:10]
 
 for s in squares
-    print("  " , s ,"\n")
+    print("  " , s )
 end
 
 println("\nTesting sqrt function applied to a list \n")
