@@ -10,7 +10,6 @@ using Statistics
         push!(data, mean(group))
     end
     println("98% of the means lie in the estimated range: ", (quantile(data,0.01), quantile(data, 0.99)))
-    println("passed")
-    println("testing identity")
+
     
 end
